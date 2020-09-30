@@ -30,7 +30,7 @@ if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
             $statusMsg = "Sorry, there was an error uploading your file.";
         }
     }else{
-        $statusMsg = 'Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed to upload.';
+        $statusMsg = 'mp3 and wav files are allowed to upload.';
     }
 }else{
     $statusMsg = 'Please select a file to upload.';

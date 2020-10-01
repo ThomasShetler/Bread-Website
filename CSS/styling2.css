@@ -1,19 +1,36 @@
 
+body {
+    background-color:#2b2b2b;
+}
 .navbar.navbar-expand-lg li a{
     margin-left:30px;
     margin-right:30px;
-    color:black;
+    color:white;
     text-decoration: underline;
     font-family: 'Agency FB', arial;
     position: relative;
-    font-size: 38px
+    font-size: 38px;
+    bottom: 30px;
 }
-
+.container.main {
+    top: 30px;
+    margin-top: 50px;
+}
 p {
-    color:black;
+
+    color:white;
     text-decoration: underline;
     font-family: 'Agency FB', arial;
     position: relative;
-    font-size: 24px;
+    font-size: 38px;
 }
-
+article {
+    margin-top: 30px;
+    color:white;
+    font-family: 'Agency FB', arial;
+    position: relative;
+}
+button {
+    margin-top: 20px;
+    width: 400px;
+}

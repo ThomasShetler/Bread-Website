@@ -25,7 +25,7 @@
         <a class="nav-link" href="listen.php">LISTEN  </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT  </a>
+        <a class="nav-link" href="about.php">ABOUT  </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">CONTACT</a>
@@ -34,5 +34,3 @@
   </div>
 </nav>
 </header>
-<div id="particles-js"></div>
-<script src="particles.js"></script>

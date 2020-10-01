@@ -31,6 +31,25 @@ article {
     position: relative;
 }
 button {
-    margin-top: 20px;
+    font-family: 'Agency FB', arial;
+    margin-top: 10px;
     width: 400px;
+}
+
+.container.fixed-buttom {
+     width: 1000px;
+     position: sticky;
+     border-color: aqua;
+     background-color: gainsboro;
+ }
+#profilephoto {
+    width: 100px;
+    height: 100px;
+}
+#styell{
+    color:white;
+    text-decoration: underline;
+    font-family: 'Agency FB', arial;
+    position: relative;
+    font-size: 12px;
 }

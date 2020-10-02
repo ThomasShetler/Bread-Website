@@ -19,7 +19,7 @@ if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
     if(in_array($fileType, $allowTypes)){
         // Upload file to server
         if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
-            // Insert image file name into database
+            // Insert audio file name into database
             $insert = $db->query("INSERT into audiofiles (file_name, uploaded_on, episode_name, episode_details) VALUES ('".$fileName."', NOW(),'$epName','$epDetails')");
             if($insert){
                 $statusMsg = "The file ".$fileName. " has been uploaded successfully.";

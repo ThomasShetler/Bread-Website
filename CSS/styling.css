@@ -1,7 +1,6 @@
 .jumbotron {
     font-family: 'Agency FB', arial;
     margin-top: 100;
-    
     background-color: transparent;
     position: relative;
     top: 10px;
@@ -22,9 +21,7 @@
     font-size: 45px
 
 }
-#styell{
-    
-}
+
 .bigbread {
     font-size: 200px
 }

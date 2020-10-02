@@ -28,7 +28,6 @@ include "includes/header.php";
     </div>
     <div class="col-sm-4" align="center">
         <p>EPISODES</p>
-        <p id="styell"> ___________________</p>
         <?php
          include 'dbConfig.php';
         $sql = "SELECT episode_name,id FROM audiofiles";
@@ -37,7 +36,7 @@ include "includes/header.php";
             
             // output data of each row
             while($row = $result->fetch_assoc()) {
-               echo '<form action="listen.php" method="get"> <button name="data" class="btn btn-secondary btn-lg" type="submit" value="'.$row["id"].'">'.$row["episode_name"].'</button>';
+               echo '<form action="listen.php" method="get"> <button name="data" class="btn btn-outline-secondary" type="submit" value="'.$row["id"].'">'.$row["episode_name"].'</button>';
                echo "<p id='styell'>__________________________</p>";
             }
             

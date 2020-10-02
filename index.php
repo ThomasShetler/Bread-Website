@@ -8,11 +8,15 @@
   <meta name="description" content="Index Page">
   <meta name="author" content="Thomas Shetler">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/styling.css">
+  <link rel="stylesheet" href="CSS/styling.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="CSS/videostyling.css" rel="stylesheet" type="text/css">
   <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
 
 </head>
 
+<video id="videoBG" poster="media/poster.png" autoplay muted loop>
+  <source src = "media/bgvideo.mp4"> 
+</video>
 <body>
 <div class="container" id="margin">
 </div>
@@ -37,7 +41,7 @@
   </div>
 </div>
 <div id="particles-js"></div>
-<script src=https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js></script>
+<script src="particles.js"></script>
 <script src="app.js"></script>
 <script src="particles.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

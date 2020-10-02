@@ -12,10 +12,14 @@
   <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="CSS/styling.css">
   <link rel="stylesheet" href="CSS/styling2.css">
+  <link rel="stylesheet" href="CSS/videostyling.css" rel="stylesheet" type="text/css"> 
 
 </head>
 
 <body>
+<video id="videoBG" poster="media/poster.png" autoplay muted loop>
+  <source src = "media/bgvideo.mp4"> 
+</video>
 <header>
 
 <nav id="sometext" class="navbar navbar-expand-lg">
